@@ -1,0 +1,14 @@
+D:\northcoders\MiniProject\Mars-Rover\bin\Debug\net8.0\Mars-Rover.exe
+D:\northcoders\MiniProject\Mars-Rover\bin\Debug\net8.0\Mars-Rover.deps.json
+D:\northcoders\MiniProject\Mars-Rover\bin\Debug\net8.0\Mars-Rover.runtimeconfig.json
+D:\northcoders\MiniProject\Mars-Rover\bin\Debug\net8.0\Mars-Rover.dll
+D:\northcoders\MiniProject\Mars-Rover\bin\Debug\net8.0\Mars-Rover.pdb
+D:\northcoders\MiniProject\Mars-Rover\obj\Debug\net8.0\Mars-Rover.GeneratedMSBuildEditorConfig.editorconfig
+D:\northcoders\MiniProject\Mars-Rover\obj\Debug\net8.0\Mars-Rover.AssemblyInfoInputs.cache
+D:\northcoders\MiniProject\Mars-Rover\obj\Debug\net8.0\Mars-Rover.AssemblyInfo.cs
+D:\northcoders\MiniProject\Mars-Rover\obj\Debug\net8.0\Mars-Rover.csproj.CoreCompileInputs.cache
+D:\northcoders\MiniProject\Mars-Rover\obj\Debug\net8.0\Mars-Rover.dll
+D:\northcoders\MiniProject\Mars-Rover\obj\Debug\net8.0\refint\Mars-Rover.dll
+D:\northcoders\MiniProject\Mars-Rover\obj\Debug\net8.0\Mars-Rover.pdb
+D:\northcoders\MiniProject\Mars-Rover\obj\Debug\net8.0\Mars-Rover.genruntimeconfig.cache
+D:\northcoders\MiniProject\Mars-Rover\obj\Debug\net8.0\ref\Mars-Rover.dll

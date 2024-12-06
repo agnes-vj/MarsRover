@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\northcoders\\MiniProject\\Mars-Rover\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCDE098-2A86-4271-B4D4-0A46BB65D276}|Mars-Rover.csproj|d:\\northcoders\\miniproject\\mars-rover\\ui\\inputparser .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCDE098-2A86-4271-B4D4-0A46BB65D276}|Mars-Rover.csproj|solutionrelative:ui\\inputparser .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE19719E-0E1F-41AA-BB38-4FD3774C9419}|..\\TestMarsRover\\TestMarsRover.csproj|d:\\northcoders\\miniproject\\testmarsrover\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCDE098-2A86-4271-B4D4-0A46BB65D276}|Mars-Rover.csproj|d:\\northcoders\\miniproject\\mars-rover\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCDE098-2A86-4271-B4D4-0A46BB65D276}|Mars-Rover.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCDE098-2A86-4271-B4D4-0A46BB65D276}|Mars-Rover.csproj|d:\\northcoders\\miniproject\\mars-rover\\ui\\userinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCDE098-2A86-4271-B4D4-0A46BB65D276}|Mars-Rover.csproj|solutionrelative:ui\\userinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCDE098-2A86-4271-B4D4-0A46BB65D276}|Mars-Rover.csproj|d:\\northcoders\\miniproject\\mars-rover\\ui\\plateausize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCDE098-2A86-4271-B4D4-0A46BB65D276}|Mars-Rover.csproj|solutionrelative:ui\\plateausize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCDE098-2A86-4271-B4D4-0A46BB65D276}|Mars-Rover.csproj|d:\\northcoders\\miniproject\\mars-rover\\ui\\coordinates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCDE098-2A86-4271-B4D4-0A46BB65D276}|Mars-Rover.csproj|solutionrelative:ui\\coordinates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCDE098-2A86-4271-B4D4-0A46BB65D276}|Mars-Rover.csproj|d:\\northcoders\\miniproject\\mars-rover\\mars-rover.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DCCDE098-2A86-4271-B4D4-0A46BB65D276}|Mars-Rover.csproj|solutionrelative:mars-rover.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCDE098-2A86-4271-B4D4-0A46BB65D276}|Mars-Rover.csproj|d:\\northcoders\\miniproject\\mars-rover\\ui\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCDE098-2A86-4271-B4D4-0A46BB65D276}|Mars-Rover.csproj|solutionrelative:ui\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCDE098-2A86-4271-B4D4-0A46BB65D276}|Mars-Rover.csproj|d:\\northcoders\\miniproject\\mars-rover\\logic\\rover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCDE098-2A86-4271-B4D4-0A46BB65D276}|Mars-Rover.csproj|solutionrelative:logic\\rover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCDE098-2A86-4271-B4D4-0A46BB65D276}|Mars-Rover.csproj|d:\\northcoders\\miniproject\\mars-rover\\logic\\plateau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCDE098-2A86-4271-B4D4-0A46BB65D276}|Mars-Rover.csproj|solutionrelative:logic\\plateau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE19719E-0E1F-41AA-BB38-4FD3774C9419}|..\\TestMarsRover\\TestMarsRover.csproj|d:\\northcoders\\miniproject\\testmarsrover\\testmarsrover.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Position.cs",
+              "DocumentMoniker": "D:\\northcoders\\MiniProject\\Mars-Rover\\UI\\Position.cs",
+              "RelativeDocumentMoniker": "UI\\Position.cs",
+              "ToolTip": "D:\\northcoders\\MiniProject\\Mars-Rover\\UI\\Position.cs",
+              "RelativeToolTip": "UI\\Position.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:39:38.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\northcoders\\MiniProject\\Mars-Rover\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\northcoders\\MiniProject\\Mars-Rover\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:38:16.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlateauSize.cs",
+              "DocumentMoniker": "D:\\northcoders\\MiniProject\\Mars-Rover\\UI\\PlateauSize.cs",
+              "RelativeDocumentMoniker": "UI\\PlateauSize.cs",
+              "ToolTip": "D:\\northcoders\\MiniProject\\Mars-Rover\\UI\\PlateauSize.cs",
+              "RelativeToolTip": "UI\\PlateauSize.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:29:52.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Rover.cs",
+              "DocumentMoniker": "D:\\northcoders\\MiniProject\\Mars-Rover\\Logic\\Rover.cs",
+              "RelativeDocumentMoniker": "Logic\\Rover.cs",
+              "ToolTip": "D:\\northcoders\\MiniProject\\Mars-Rover\\Logic\\Rover.cs",
+              "RelativeToolTip": "Logic\\Rover.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:26:35.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Plateau.cs",
+              "DocumentMoniker": "D:\\northcoders\\MiniProject\\Mars-Rover\\Logic\\Plateau.cs",
+              "RelativeDocumentMoniker": "Logic\\Plateau.cs",
+              "ToolTip": "D:\\northcoders\\MiniProject\\Mars-Rover\\Logic\\Plateau.cs",
+              "RelativeToolTip": "Logic\\Plateau.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:26:32.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InputParser .cs",
+              "DocumentMoniker": "D:\\northcoders\\MiniProject\\Mars-Rover\\UI\\InputParser .cs",
+              "RelativeDocumentMoniker": "UI\\InputParser .cs",
+              "ToolTip": "D:\\northcoders\\MiniProject\\Mars-Rover\\UI\\InputParser .cs",
+              "RelativeToolTip": "UI\\InputParser .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:24:03.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Coordinates.cs",
+              "DocumentMoniker": "D:\\northcoders\\MiniProject\\Mars-Rover\\UI\\Coordinates.cs",
+              "RelativeDocumentMoniker": "UI\\Coordinates.cs",
+              "ToolTip": "D:\\northcoders\\MiniProject\\Mars-Rover\\UI\\Coordinates.cs",
+              "RelativeToolTip": "UI\\Coordinates.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:24:00.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserInput.cs",
+              "DocumentMoniker": "D:\\northcoders\\MiniProject\\Mars-Rover\\UI\\UserInput.cs",
+              "RelativeDocumentMoniker": "UI\\UserInput.cs",
+              "ToolTip": "D:\\northcoders\\MiniProject\\Mars-Rover\\UI\\UserInput.cs",
+              "RelativeToolTip": "UI\\UserInput.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwA8AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:23:50.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Mars-Rover.csproj",
+              "DocumentMoniker": "D:\\northcoders\\MiniProject\\Mars-Rover\\Mars-Rover.csproj",
+              "RelativeDocumentMoniker": "Mars-Rover.csproj",
+              "ToolTip": "D:\\northcoders\\MiniProject\\Mars-Rover\\Mars-Rover.csproj",
+              "RelativeToolTip": "Mars-Rover.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-05T16:18:52.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TestMarsRover.csproj",
+              "DocumentMoniker": "D:\\northcoders\\MiniProject\\TestMarsRover\\TestMarsRover.csproj",
+              "RelativeDocumentMoniker": "..\\TestMarsRover\\TestMarsRover.csproj",
+              "ToolTip": "D:\\northcoders\\MiniProject\\TestMarsRover\\TestMarsRover.csproj",
+              "RelativeToolTip": "..\\TestMarsRover\\TestMarsRover.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-05T11:30:53.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\northcoders\\MiniProject\\TestMarsRover\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\TestMarsRover\\UnitTest1.cs",
+              "ToolTip": "D:\\northcoders\\MiniProject\\TestMarsRover\\UnitTest1.cs",
+              "RelativeToolTip": "..\\TestMarsRover\\UnitTest1.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAswGwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T10:32:56.55Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

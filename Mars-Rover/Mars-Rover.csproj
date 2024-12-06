@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Mars_Rover</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<MAX_ROVER_COUNT>5</MAX_ROVER_COUNT>
+  </PropertyGroup>
+	<ItemGroup>
+		<InternalsVisibleTo Include="TestMarsRover" />		
+	</ItemGroup>
+</Project>
