@@ -2,11 +2,18 @@
 
 using Mars_Rover.Input;
 using Mars_Rover;
+using Mars_Rover.Logic;
+using System.Drawing;
 
 
-PlateauSize plateauSize;
-Position roverPosition;
-List<Instructions> instructions;
+PlateauSize plateauSize = null;
+Position roverPosition = null;
+List<Instructions> instructions = null;
+
+Plateau plateau;
+Rover rover1;
+MissionControl missionControl = new();
+//Input *******************
 string rows;
 string columns;
 bool isValidInput = false;
@@ -50,7 +57,16 @@ while (!isValidInput)
     else
         Console.WriteLine("Error : Enter a valid Rover Moving Instruction");
 }
-Console.ReadLine();
+
+// Move Rover**************
+missionControl.createPlateau(plateauSize);
+rover1 = missionControl.DeployRover(roverPosition);
+ExecutionStatus status = missionControl.MoveRover(rover1, instructions);
+
+Console.Write(rover1.roverPosition.point.x);
+Console.Write(rover1.roverPosition.point.y);
+Console.Write(rover1.roverPosition.facing);
+
 
 
 

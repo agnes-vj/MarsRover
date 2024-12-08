@@ -12,3 +12,4 @@ D:\northcoders\MiniProject\Mars-Rover\obj\Debug\net8.0\refint\Mars-Rover.dll
 D:\northcoders\MiniProject\Mars-Rover\obj\Debug\net8.0\Mars-Rover.pdb
 D:\northcoders\MiniProject\Mars-Rover\obj\Debug\net8.0\Mars-Rover.genruntimeconfig.cache
 D:\northcoders\MiniProject\Mars-Rover\obj\Debug\net8.0\ref\Mars-Rover.dll
+D:\northcoders\MiniProject\Mars-Rover\obj\Debug\net8.0\Mars-Rover.sourcelink.json

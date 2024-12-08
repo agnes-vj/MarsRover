@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Mars_Rover.Logic;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace Mars_Rover.Input
 {
+
     internal class Position
     {
      
@@ -18,5 +20,7 @@ namespace Mars_Rover.Input
             point = new Coordinates(x,y);
             this.facing = facing;
         }
+
+
     }
 }

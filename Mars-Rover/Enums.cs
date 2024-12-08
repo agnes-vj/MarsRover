@@ -7,19 +7,24 @@ using System.Threading.Tasks;
 namespace Mars_Rover
 {
 
-        enum Instructions
+       internal enum Instructions
         {
             L,
             R,
             M
         }
 
-        enum Directions
+       internal enum Directions
         {
             N,
-            W,
             E,
-            S
+            S,
+            W            
         }
+    internal enum ExecutionStatus
+    {
+        SUCCESS,
+        FAILURE
+    }
     
 }
