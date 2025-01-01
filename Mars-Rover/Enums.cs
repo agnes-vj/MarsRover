@@ -24,7 +24,10 @@ namespace Mars_Rover
     internal enum ExecutionStatus
     {
         SUCCESS,
-        FAILURE
+        FAILURE,
+        OUT_OF_RANGE,
+        POSITION_OCCUPIED,
+        PLATEAU_NOT_CREATED
     }
     
 }

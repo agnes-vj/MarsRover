@@ -12,12 +12,12 @@ namespace Mars_Rover.Input
     internal class Position
     {
      
-        internal Coordinates point { get; set; }
+        internal Coordinate point { get; set; }
         internal Directions facing { get; set; }
 
         public Position(int x, int y, Directions facing)
         {
-            point = new Coordinates(x,y);
+            point = new Coordinate(x,y);
             this.facing = facing;
         }
 

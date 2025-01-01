@@ -8,12 +8,12 @@ using System.Threading.Tasks;
 
 namespace Mars_Rover.Input
 {
-    internal class Coordinates
+    internal class Coordinate
     {
          internal int x { get; set; }
          internal int y { get; set; }
 
-        public Coordinates(int row, int column)
+        public Coordinate(int row, int column)
         {
             x = row;
             y = column;

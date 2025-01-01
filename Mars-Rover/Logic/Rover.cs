@@ -19,37 +19,40 @@ namespace Mars_Rover.Logic
             this.roverPosition = position;
         }
 
-        internal ExecutionStatus Move(PlateauSize size)
+        internal ExecutionStatus Move(PlateauSize size, List<Coordinate> roverLocations)
         {
            
             int currentPointX = roverPosition.point.x;
-            int currentPointY = roverPosition.point.y;
+            int currentPointY = roverPosition.point.y;            
             Directions currentlyFacing = roverPosition.facing;
-            Coordinates newCoordinate = roverPosition.facing switch
+            List<Coordinate> roverLocationsExceptCurrent = roverLocations.Where(location => (location.x != currentPointX && location.y != currentPointY)).ToList();
+            roverLocationsExceptCurrent.ForEach(item => Console.WriteLine($"occupied x : {item.x}, y: {item.y}"));
+            Coordinate newCoordinate = roverPosition.facing switch
             {
-                Directions.N => new Coordinates(currentPointX, currentPointY + 1),
-                Directions.E => new Coordinates(currentPointX + 1, currentPointY),
-                Directions.S => new Coordinates(currentPointX, currentPointY - 1),
-                Directions.W => new Coordinates(currentPointX - 1, currentPointY )
+                Directions.N => new Coordinate(currentPointX, currentPointY + 1),
+                Directions.E => new Coordinate(currentPointX + 1, currentPointY),
+                Directions.S => new Coordinate(currentPointX, currentPointY - 1),
+                Directions.W => new Coordinate(currentPointX - 1, currentPointY )
             };
-            bool canMove = IsValidCoordinate(newCoordinate, size);
-            if (canMove)
-            {                 
-                roverPosition = new Position(newCoordinate.x, newCoordinate.y, currentlyFacing);
-                return ExecutionStatus.SUCCESS;
-            }
-            return ExecutionStatus.FAILURE;
+            
+            ExecutionStatus status = IsValidCoordinate(newCoordinate, size, roverLocations);
+            if (status == ExecutionStatus.SUCCESS)
+              roverPosition = new Position(newCoordinate.x, newCoordinate.y, currentlyFacing);
+            
+            return status;
             
         }
 
-        private bool IsValidCoordinate(Coordinates newCoordinate, PlateauSize plateauSize)
+        internal static ExecutionStatus IsValidCoordinate(Coordinate newCoordinate, PlateauSize plateauSize, List<Coordinate> roverLocations)
         {
             if ((newCoordinate.x < 0) || (newCoordinate.y < 0) )
-                return false;
+                return ExecutionStatus.OUT_OF_RANGE;
             
             if ((newCoordinate.x > plateauSize.Columns) || (newCoordinate.y > plateauSize.Rows) )
-                return false;
-          return true;
+                return ExecutionStatus.OUT_OF_RANGE;
+            if (roverLocations.Any(coord => coord.x == newCoordinate.x && coord.y == newCoordinate.y))
+                return ExecutionStatus.POSITION_OCCUPIED;
+          return ExecutionStatus.SUCCESS;
         }
 
         internal ExecutionStatus Turn(Instructions leftOrRight)
@@ -81,6 +84,21 @@ namespace Mars_Rover.Logic
         internal void returnToBase()
         {
 
+        }
+
+        internal ExecutionStatus ChangeLocation(PlateauSize size, List<Coordinate> roverLocations, Position newPosition)
+        {
+            Coordinate newCoordinate = new(newPosition.point.x, newPosition.point.y);
+            ExecutionStatus status = IsValidCoordinate(newCoordinate, size, roverLocations);
+            if (status == ExecutionStatus.SUCCESS)
+                roverPosition = new Position(newPosition.point.x, newPosition.point.y, newPosition.facing);
+
+            return status;
+        }
+
+        internal Rover clone()
+        {
+            return new Rover(roverName,roverInfo, new Position(roverPosition.point.x, roverPosition.point.y, roverPosition.facing));
         }
     }
 }
